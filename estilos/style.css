@@ -146,3 +146,18 @@ div#social a:hover {
   transform: translateX(-50%) translateY(0);
 }
 
+section#detalhes {
+  grid-column: 2;
+}
+
+article {
+  background-color: var(--fundo-card);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+article h2 {
+  color: var(--destaque);
+  margin-bottom: 10px;
+}
